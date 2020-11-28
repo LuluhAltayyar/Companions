@@ -1,0 +1,124 @@
+        *
+        {
+            box-sizing: border-box;
+        }
+        
+        body
+        {
+            margin: auto;
+            width: 100%;
+            font-family:monospace;
+            background-color: #c7dbed;
+            font-size: 13pt;
+            text-align: right;
+            position: absolute;
+            color: #0f4561;
+        }
+        
+        header
+        {
+            background-color: #0f4561;
+            color: white;
+            overflow: hidden;
+            height: 130px;
+            padding: 25px 10px;
+            width: 100%;
+            position: fixed;
+            top: 0px;
+        }
+        
+        h1
+        {
+            float: right;
+            padding-right: 10px;
+        }
+        
+        nav
+        {
+            display: block;
+            direction: rtl;
+            padding-top: 30px;
+            float: left;
+        }
+        
+        ul
+        {
+            margin: 0px; 
+            padding: 0px;
+            list-style: none;
+        }
+        
+        li
+        {
+            display: inline-block;
+            padding: 0px 50px ;
+            margin: 0px;  
+        }
+        
+        a
+        {
+            text-decoration: none; 
+            color: white;
+            font-weight: 600;
+            font-size: 13pt;
+        }
+
+        h2
+        { 
+            color: deepskyblue;
+            font-size:35px;
+            margin-top:50px;
+        }
+        
+        h3
+        {
+            color: cornflowerblue;
+        }
+        
+        section 
+        {
+            margin: 100px 30px;
+        }
+        
+        section ul  
+        {  
+            list-style: none;
+        }
+
+        summary
+        {
+            font-size:20px;
+            margin-right:10px;
+            margin-bottom:6px;
+        }
+
+        summary li
+        {
+            font-size:20px; 
+            color:#0f4561; 
+            padding:10px; 
+        }
+		
+        details 
+        {
+            margin:30px;
+        }
+
+        footer
+        {
+            text-align: center;
+            height: 70px;
+            width: 100%;
+            background-color: #00334d;
+            color: white;
+            padding-top: 20px;
+            font-size: 10pt; 
+        }
+        
+        footer .fa
+        {
+            width: 15px; 
+            height: 12px;
+        }
+
+        

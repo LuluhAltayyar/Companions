@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>التسجيل</title>
+    <meta charset="utf-8">
+    <meta name="keywords" content="الصحابة, قصص, أخبار, الصحابيات, أسئلة, أجوبة, دين, تاريخ" >
+    <meta name="description" content="موقع ديني يضم معلومات و قصص عن الصحابة و الصحابيات رضوان الله عليهم, كما يشتمل على منتدى للحوار و الأسئلة" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link  rel = "stylesheet"  href = "styleMe.css">
+    <style>
+        h2
+        { 
+            margin-top:30px;
+            text-align: center;
+        }
+        form
+        {
+            direction: rtl;
+            text-align: left;
+        }  
+        
+        #signUp, #signIn
+        {
+            margin: 140px 40% 20px;
+            border: 2px solid cornflowerblue;
+            border-radius: 10px;
+            padding: 0px 15px 15px;
+            width: 300px;
+            background-color: aliceblue;
+        }
+        #or
+        {
+            margin: 10px;
+            text-align: center;
+        }
+        #signIn { margin-top: 20px;}
+        
+    </style>
+  </head>
+    
+  <body>
+	<header>
+        <h1>الصحابة <span style = "color: deepskyblue;">والصحابيات</span></h1>
+        <nav>
+            <ul>
+                    <li><a href="main.html" >الرئيسية</a></li>
+                    <li><a href="male.html">الصحابة</a></li>
+                    <li><a href="female.html">الصحابيات</a></li>
+                    <li><a href="form.html" style="color: #5cf1eb; text-decoration: underline;">المنتدى </a></li>
+                    <li><a href="main.html#who">من نحن</a></li>
+                    <li><a href="#contact">تواصل معنا</a></li>
+            </ul>
+        </nav>
+    </header>
+	
+    <div id="signUp">
+		<p id="orderP">  نرجو التسجيل في الموقع لتتمكن من طرح الأسئلة و تلقي الأجوبة المباشرة</p> <hr>
+        <h2> نموذج التسجيل </h2>
+        <form method="post" action="signUp.php">
+            <label> اسم المستخدم: <input type="text" name="username" required> </label><br><br>
+            <label> الإيميل: <input type="email" name="email" required> </label><br><br>
+            <label> كلمة السر: <input type="password" name="password" required> </label><br><br>
+            <input type="submit" value="التسجيل">
+        </form>
+    </div>
+      
+    <div id="or"> لديك حساب بالفعل؟ <br> سجل الدخول إلى حسابك </div>
+
+	<div id="signIn">
+		<p id="orderP"> سجل الدخول إلى حسابك </p> <hr>
+        <h2> نموذج تسجيل الدخول </h2>
+        <form method="post" action="signIn.php">
+            <label> اسم المستخدم: <input type="text" name="username" required> </label><br><br>
+            <label> كلمة السر: <input type="password" name="password" required> </label><br><br>
+            <input type="submit" value="التسجيل">
+        </form>
+    </div> 
+	<footer>
+        <div id="contact"> 
+            <a href="https://www.facebook.com/" class="fa fa-facebook"></a> &nbsp;&nbsp;<a href="https://twitter.com/login?lang=ar" class="fa fa-twitter"></a> &nbsp;&nbsp;<a href="https://www.whatsapp.com/" class="fa fa-whatsapp"></a>
+         : نسعد بتواصلكم معنا عبر أي من الحسابات التالية</div>
+    </footer>
+</body>
+
+</html>
